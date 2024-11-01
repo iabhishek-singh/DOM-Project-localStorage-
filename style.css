@@ -27,11 +27,24 @@ header h1 {
     color: goldenrod;
     border-bottom: 2px solid;
 }
+.para{
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+    
+}
+.para h4{
+    color: whitesmoke;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 20px;
+}
 
 /* Complete Container */
 
 #container {
     width: 1150px;
+    height: 460px;
     border: 2px solid red;
     margin: auto;
     display: flex;
@@ -182,4 +195,19 @@ form input {
 .trash-button:hover {
     background-color: rgb(184, 192, 177);
 
+}
+.gitlink{
+    width: 10%;
+    /* height:5vh; */
+    margin: auto;
+}
+.gitlink a{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.gitlink a:hover{
+    color: bisque;
+    border-bottom:2px solid gold ;
 }
